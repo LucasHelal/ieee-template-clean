@@ -1,0 +1,114 @@
+\documentclass[conference]{IEEEtran}
+
+\usepackage{blindtext}
+\usepackage{graphicx}
+\graphicspath{ {imagens/} }
+\usepackage[utf8]{inputenc}
+\usepackage[english,brazilian]{babel}
+\usepackage{caption}
+\usepackage[cmex10]{amsmath}
+\usepackage[flushleft]{threeparttable}
+\usepackage{multirow}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{subfig}
+\DeclareMathOperator*{\argmax}{argmax}
+\usepackage{amssymb, amsmath}
+\hyphenation{op-tical net-works semi-conduc-tor}
+\usepackage{lipsum}
+
+
+\begin{document}
+
+\title{Template clean IEEE\\ para conferências da IEEE}
+
+
+
+\author{\IEEEauthorblockN{Lucas Georges Helal}
+\IEEEauthorblockA{Programa de Pós Graduacão em Ciência da Computação\\
+Universidade Estadual de Maringá\\
+Avenida Colombo, 5790 - Jardim Universitário\\
+Maringá - Paraná - Brasil\\
+Email:  lucasghelal@gmail.com}
+\and
+\IEEEauthorblockN{Homer Simpson}
+\IEEEauthorblockA{Starfleet Academy\\
+San Francisco, California 96678--2391\\
+Telephone: (800) 555--1212\\
+Fax: (888) 555--1212}}
+
+
+
+\maketitle
+
+
+\begin{abstract}
+
+Resumo
+
+\end{abstract}
+
+\ \
+
+\selectlanguage{english}
+\begin{abstract}
+
+Abstract
+
+\end{abstract}
+
+\IEEEpeerreviewmaketitle
+
+
+\selectlanguage{brazilian}
+
+\section{Introdução}
+\input{texto/_introducao.tex}
+
+\section{Fundamentação Teórica}
+\label{sec:funTeorica}
+
+\input{texto/_fundamentacao.tex}
+
+\section{Método Proposto}
+\label{sec:metodologia}
+
+\input{texto/_metodologia.tex}
+
+
+\section{Experimentos e Resultados}
+\label{sec:ExperimentosResultados}
+
+\input{texto/_resultados.tex}
+
+
+\section{Conclusão}
+\label{sec:conclusão}
+
+\input{texto/_conclusao.tex}
+
+
+\section*{Agradecimentos}
+
+
+Agradecemos aos que contribuiram para deixar essa template clean:
+
+\begin{itemize}
+  \item Lucas Georges Helal
+\end{itemize}
+
+
+
+\begin{thebibliography}{1}
+
+\input{texto/referencias.bib}
+
+\end{thebibliography}
+
+
+
+
+% that's all folks
+\end{document}
+
+
+\grid
